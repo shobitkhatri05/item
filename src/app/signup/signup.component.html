@@ -1,0 +1,37 @@
+<div class="container mt-5 mb-4" >
+  <div class="row d-flex justify-content-center">
+    <div class="col-10 bg-light  bgshadow">
+
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="Name" [(ngModel)]="Name">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+      <label for="exampleInputEmail1">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="Email" [(ngModel)]="Email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">phn no</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="Phone" [(ngModel)]="Phone">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Password</label>
+      <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="Password" [(ngModel)]="Password">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1"> confirm Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" name="ConfirmPassword" [(ngModel)]="ConfirmPassword">
+  </div>
+ 
+
+  <button type="submit" class="btn btn-primary" (click)="SignUp()">Submit</button>
+</form>
+</div>
+</div>
+</div>

@@ -1,0 +1,85 @@
+<div class="container mt-5 mb-4">
+    <div class="row d-flex justify-content-center">
+      <div class="col-10 bg-light  bgshadow">
+  
+        <div class="row d-flex justify-content-center mt-4">
+          <div class="col-10">
+            <h3 style="color: rgba(31, 180, 122, 1); ">Book Your Car Here</h3>
+           
+            <form action="/action_page.php">
+             
+      
+              <div class="row" style="margin-left: auto ;justify-content:space-between;">
+                <div class="row mt-2">
+                    <div class="form-group">
+                    <div class="col-6">
+                        <img src="../../assets/images/WhatsApp Image 2020-10-01 at 10.21.04.jpeg" alt=""
+                            height="120px" width="150px" style="border-radius: 100px;">
+                        </div>
+                    </div>
+                    <div class="col-6 txtg"
+                        style="align-items: center; justify-content: center; text-align: center; margin-top: 10%; font-size: 14px; font-weight: 100;">
+                        <!-- <div class="row">
+                            <input type="text" class="form-control txtb inputbg" id="Company Logo." placeholder="Company Logo" name="Company Logo">
+                        </div> -->
+                    </div>
+                </div>
+                <div class="form-group">
+                  <label for="name" class="fontsizesm txtgrey">First Name</label>
+                  <input type="text" [(ngModel)]="name" class="form-control txtb inputbg" id="ABC Company Pvt. Ltd." placeholder="Enter your name here" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="last" class="fontsizesm txtgrey">Last Name</label>
+                    <input type="text" [(ngModel)]="last" class="form-control txtb inputbg" id="Legal Services" placeholder="Enter last name here" name="last">
+                  </div>
+      
+              </div>
+
+              <div class="form-group ">
+                <label class="address" for="email">Address</label>
+                <input type="address" [(ngModel)]="address" class="form-control txtb inputbg" id="address" placeholder="A-123, Block B, ABC Park, West Green Park, New Delhi, Delhi, 110053"
+                  name="address">
+              </div>
+
+              <div class="row" style="margin-left: auto ;justify-content:space-between;">
+                <div class="form-group">
+                  <label for="mobile" class="fontsizesm txtgrey">Mobile No</label>
+                  <input type="text" [(ngModel)]="mobile" class="form-control txtb inputbg" id="+91 1234567890" placeholder="+91 1234567890" name="mobile">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="fontsizesm txtgrey">E-mail Id</label>
+                    <input type="text" [(ngModel)]="email" class="form-control txtb inputbg" id="ABC Company Pvt. Ltd." placeholder="E-mail Id" name="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="city" class="fontsizesm txtgrey">City</label>
+                    <input type="text" [(ngModel)]="city" class="form-control txtb inputbg" id="ABC Company Pvt. Ltd." placeholder="City" name="city">
+                  </div>
+
+                
+            
+            </div>
+            </form>
+      
+            <div class="row mb-3 mt-3">
+              
+              <div class="col-12">
+                  <div class="row d-flex justify-content-center">
+                    <button type="button"  class="btn btn-dark" (click) = "addData()">Accept</button>
+                  </div>
+                  <div class="col-12">
+                    <div class="row d-flex justify-content-center">
+                      <button type="button" href="#"   routerLink='/login' class="btn btn-dark">Log Out</button>
+                    </div>
+
+                  </div>
+              </div>
+          </div>
+      
+   
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  </div>

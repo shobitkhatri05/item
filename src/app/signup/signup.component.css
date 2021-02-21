@@ -1,0 +1,60 @@
+.bgshadow{
+    box-shadow: 0px 0px 29px -5px rgba(0,0,0,0.75);
+    border-radius:25px ;
+  }
+  .txtg{
+    color: rgba(45, 211, 147, 1) !important;
+  }
+  .txtgrey{
+    color: grey;
+  }
+  .bg{
+  background-image: linear-gradient(to bottom, #f1fcf8, #f3fdfd, #f8fdff, #fcfeff, #ffffff);
+  }
+  .txtb{
+    color: black;
+  }
+  .inputbg{
+    background-color:rgb(245, 253, 250) ;
+  }
+  .txtghead{
+    color: rgba(45, 211, 147, 1);
+    font-weight: 700 !important;
+  }
+  
+  .txtgreyhead{
+    color: rgb(165, 143, 143);
+    font-weight :500 !important;
+  }
+  
+  .form-control{
+    border-top: 0px ;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    border-bottom: solid 2px rgba(45, 211, 147, 1);
+  }
+  
+  .fontsizesm{
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .btn{
+    background-color:rgba(45, 211, 145, 1);
+     border-radius: 5px;
+      margin-top: 10px;
+      width:145px;
+      border: 0px;
+      margin-bottom: 10px;
+      font-family: montserrat_bold, Arial;
+      
+  }
+  .btn1{
+    background-color:#fffefe;
+     border-radius: 5px;
+      margin-top: 10px;
+      width:145px;
+      border: 0px;
+      margin-bottom: 10px;
+      font-family: montserrat_bold, Arial;
+  }
